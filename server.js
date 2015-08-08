@@ -14,6 +14,7 @@ i18n.init({
     fallbackLng      : 'en'
 });
 
+//it is important to put this line before the "view engine" middleware
 app.use(i18n.handle);
 app.set('view engine', 'jade');
 app.set('view cache', false);
