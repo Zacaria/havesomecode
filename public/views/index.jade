@@ -9,60 +9,59 @@ html.theme-orange
         link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
         link(type="text/css", rel="stylesheet", href="styles/css/main.css")
         script(src="scripts/live.js")
-    body#top
+    body
         #cv
             .mainDetails
-                //#headshot
-                //  img(src="headshot.jpg", alt="Zacaria Chtatar")
                 .name
                     h1.name-title
-                        =t('app.nameTitle')
+                        =t('main-details.name-title')
                         br
                         | Full-stack JavaScript
                 #contactDetails
                     ul
-                        li.contactDetail
+                        li
                             i.fa.fa-user.fa-fw
-                            | &nbsp;Zacaria Chtatar,&nbsp;21 ans
-                        //li
-                        //    i.fa.fa-home.fa-fw
-                        //    | &nbsp;-
-                        //    br
-                        //    | &nbsp;-
+                            =t('main-details.name-detail')
                         li
-                            i.fa.fa-envelope-o.fa-fw
-                            a(href="mailto:zc@42.am", target="_blank") &nbsp;zc@42.am
+                            a(href="mailto:zc@42.am", target="_blank")
+                                i.fa.fa-envelope-o.fa-fw
+                                | &nbsp;zc@42.am
                         li
-                            i.fa.fa-github.fa-fw
-                            a(href="https://github.com/Zacaria") &nbsp;github.com/Zacaria
-                        //li
-                        //    i.fa.fa-phone.fa-fw
-                        //    | &nbsp;-
+                            a(href="https://github.com/Zacaria")
+                                i.fa.fa-github.fa-fw
+                                | &nbsp;Github
+                        li
+                            a(href="https://www.linkedin.com/pub/zacaria-chtatar/55/1b0/543", target="_blank")
+                                i.fa.fa-linkedin-square.fa-fw
+                                | &nbsp;LinkedIn
                 .clear
             .mainArea
                 section.section
                     .sectionTitle
-                        h1 Formation
+                        h1=t('sections.section-1.title')
                     .sectionContent
                         article
-                            h2 Exia.Cesi, Rouen
+                            h2=t('sections.section-1.article-1.title')
                             p.sectionSubDetails 2011 - 2016
                             p
-                                | Actuellement en 4ème année d'Ingénierie Logicielle
+                                =t('sections.section-1.article-1.description-1')
                                 br
-                                | Diplôme en préparation : Manager des Systèmes d'Information
+                                =t('sections.section-1.article-1.description-2')
+                                //| Actuellement en 4ème année d'Ingénierie Logicielle
+                                //br
+                                //| Diplôme en préparation : Manager des Systèmes d'Information
                         article
-                            h2 Baccalauréat S - spécialité mathématiques
+                            h2=t('sections.section-1.article-2.title')
                             p.sectionSubDetails 2011
-                            p Lycée André Malraux, Gaillon
+                            p=t('sections.section-1.article-2.description')
                     .clear
                 section.section
                     article
                         .sectionTitle
-                            h1 Expérience Professionnelle
+                            h1=t('sections.section-2.title')
                         .sectionContent
                             article
-                                h2 Développeur Web, Sokrate - Rouen
+                                h2=t('sections.section-2.article-1.title')
                                 div
                                     span.sectionSubDetails Septembre 2014 - Février 2015
                                     ul.tags
@@ -72,12 +71,12 @@ html.theme-orange
                                         li.tag Azure
                                         li.tag Sécurité
                                 p
-                                    | Réalisation de la documentation BabylonJS :&nbsp;
+                                    =t('sections.section-2.article-1.description-1')
                                     a(href='doc.babylonjs.com' class="link") doc.babylonjs.com
                                     br
-                                    | Réalisation d'une interface d'administration d'application mobile pour le Crédit Agricole Normandie Seine
+                                    =t('sections.section-2.article-1.description-2')
                             article
-                                h2 Développeur Web, Laboratoire IRISE CESI - Rouen
+                                h2=t('sections.section-2.article-2.title')
                                 div
                                     span.sectionSubDetails Janvier - Mars 2014
                                     ul.tags
@@ -87,11 +86,11 @@ html.theme-orange
                                         li.tag MySql
                                         li.tag Domotique
                                 p
-                                    | Participation au projet CREST (Développement durable, living-lab)
+                                    =t('sections.section-2.article-2.description-1')
                                     br
-                                    | Travail sur l'interface de visualisation de données
+                                    =t('sections.section-2.article-2.description-2')
                             article
-                                h2 Développeur Web, Onouo - Rouen
+                                h2=t('sections.section-2.article-3.title')
                                 div
                                     span.sectionSubDetails Juin - Juillet 2013
                                     ul.tags
@@ -101,13 +100,13 @@ html.theme-orange
                                         li.tag WebServices
                                         li.tag Linux
                                 p
-                                    | Réalisation de deux sites e-commerce sous Magento :
+                                    =t('sections.section-2.article-3.description')
                                     br
                                     a(href="www.lange.fr/eshop" class="link") lange.fr/eshop
                                     br
                                     a(href="www.sartore.fr/eshop" class="link") sartore.fr/eshop
                             article
-                                h2 Développeur Web, Université de Portsmouth - GB
+                                h2=t('sections.section-2.article-4.title')
                                 div
                                     span.sectionSubDetails Septembre - Décembre 2012
                                     ul.tags
@@ -115,13 +114,13 @@ html.theme-orange
                                         li.tag MySql
                                         li.tag Merise
                                 p
-                                    | Réalisation d'une application web à but pédagogique
+                                    =t('sections.section-2.article-4.description-1')
                                     br
-                                    | Système de questionnaire construit par le professeur à destination d'étudiants
+                                    =t('sections.section-2.article-4.description-2')
                     .clear
                 section.section
                     .sectionTitle
-                        h1 Compétences
+                        h1=t('sections.section-3.title')
                     .sectionContent
                         ul.keySkills
                             li.skill
@@ -190,14 +189,21 @@ html.theme-orange
                     .clear
                 section.section
                     .sectionTitle
-                        h1 Informations Complémentaires
+                        h1=t('sections.section-4.title')
                     .sectionContent
                         p
-                            | Certifié Cisco CCENT
+                            =t('sections.section-4.description-1')
                             br
-                            | Maitrise anglais courant : TOEIC 860
+                            =t('sections.section-4.description-2')
                             br
-                            | Permis B, avec véhicule
+                            =t('sections.section-4.description-3')
                             br
-                            | Karaté : ceinture marron, Théâtre : 5 ans
+                            =t('sections.section-4.description-4')
                     .clear
+        .languages
+            .language
+                a(href='/fr')
+                    img.flag.flag-fr(src='images/blank.gif')
+            .language
+                a(href='/en')
+                    img.flag.flag-us(src='images/blank.gif')
