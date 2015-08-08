@@ -1,7 +1,52 @@
 {
-  "app": {
-    "nameTitle" : "Developer"
-  },
-  "word": "Hello"
-
+    "main-details": {
+        "name-title": "Developer",
+        "name-detail": " Zacaria Chtatar, 21"
+    },
+    "sections": {
+        "section-1": {
+            "title": "Education",
+            "article-1": {
+                "title": "Exia.Cesi, Rouen - France",
+                "description-1": "Now in 4th year of software engineering",
+                "description-2": "Diploma in preparation : Manager of Information Technologies"
+            },
+            "article-2": {
+                "title": "High school diploma in sciences",
+                "description": "Lycée André Malraux, Gaillon - France"
+            }
+        },
+        "section-2": {
+            "title": "Professional Experiences",
+            "article-1": {
+                "title": "Web Developer, Sokrate - Rouen - France",
+                "description-1": "Realization of BabylonJS' documentation : ",
+                "description-2": "Realization of a mobile application's control panel for the Crédit Agricole Normandie Seine"
+            },
+            "article-2": {
+                "title": "Web Developer, IRISE CESI Research center - Rouen - France",
+                "description-1": "CREST project involvement (sustainability, living-lab)",
+                "description-2": "Work on the data visualization interface"
+            },
+            "article-3": {
+                "title": "Web Developer, Onouo - Rouen - France",
+                "description": "Realization of two e-commerce websites under Magento : "
+            },
+            "article-4": {
+                "title": "Web Developer, University of Portsmouth - GB",
+                "description-1": "Realization of an educational web application",
+                "description-2": "Quiz system built by professor for students"
+            }
+        },
+        "section-3": {
+            "title": "Key Skills"
+        },
+        "section-4": {
+            "title": "Additional Informations",
+            "description-1": "Cisco CCENT certified 2013",
+            "description-2": "Fluent english : TOEIC 955",
+            "description-3": "Driving licence, with vehicle",
+            "description-4": "Karate : brown belt, Theater : 5 years"
+        }
+    }
 }

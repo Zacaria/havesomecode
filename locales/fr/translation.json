@@ -1,5 +1,52 @@
 {
-  "app": {
-    "nameTitle" : "Développeur"
+  "main-details": {
+    "name-title": "Développeur",
+    "name-detail": " Zacaria Chtatar, 21 ans"
+  },
+  "sections": {
+    "section-1": {
+      "title": "Formation",
+      "article-1": {
+        "title": "Exia.Cesi, Rouen",
+        "description-1": "Actuellement en 4ème année d'Ingénierie Logicielle",
+        "description-2": "Diplôme en préparation : Manager des Systèmes d'Information"
+      },
+      "article-2": {
+        "title": "Baccalauréat S - spécialité mathématiques",
+        "description": "Lycée André Malraux, Gaillon"
+      }
+    },
+    "section-2": {
+      "title": "Expérience Professionnelle",
+      "article-1": {
+        "title": "Développeur Web, Sokrate - Rouen",
+        "description-1": "Réalisation de la documentation BabylonJS : ",
+        "description-2": "Réalisation d'une interface d'administration d'application mobile pour le Crédit Agricole Normandie Seine"
+      },
+      "article-2": {
+        "title": "Développeur Web, Laboratoire IRISE CESI - Rouen",
+        "description-1": "Participation au projet CREST (Développement durable, living-lab)",
+        "description-2": "Travail sur l'interface de visualisation de données"
+      },
+      "article-3": {
+        "title": "Développeur Web, Onouo - Rouen",
+        "description": "Réalisation de deux sites e-commerce sous Magento : "
+      },
+      "article-4": {
+        "title": "Développeur Web, Université de Portsmouth - GB",
+        "description-1": "Réalisation d'une application web à but pédagogique",
+        "description-2": "Système de questionnaire construit par le professeur à destination d'étudiants"
+      }
+    },
+    "section-3": {
+      "title": "Compétences"
+    },
+    "section-4": {
+      "title": "Informations Complémentaires",
+      "description-1": "Certifié Cisco CCENT 2013",
+      "description-2": "Maitrise anglais courant : TOEIC 955",
+      "description-3": "Permis B, avec véhicule",
+      "description-4": "Karaté : ceinture marron, Théâtre : 5 ans"
+    }
   }
 }
