@@ -21,7 +21,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.1",
-    "i18next": "^1.10.4"
+    "i18next": "^1.10.4",
+    "jade": "^1.11.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
