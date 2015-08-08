@@ -1,0 +1,29 @@
+.languages {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  background-color: rgba(0,0,0, 0.1);
+
+  .language {
+    display: inline-block;
+    padding: 2px;
+    z-index: 2;
+    //width: 32px;
+    //height: 32px;
+  }
+}
+
+.flag {
+  width: 32px;
+  height: 32px;
+  background: url(../../images/flags.png) no-repeat;
+}
+
+.flag.flag-fr {
+  background-position: -32px 0
+}
+
+.flag.flag-us {
+  background-position: 0 -32px
+}
