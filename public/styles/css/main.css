@@ -204,7 +204,7 @@ a {
     margin-bottom: 3px;
     display: inline-block;
     min-width: 150px;
-    margin-left: 15px; }
+    margin-right: 15px; }
   .keySkills .skill-fw {
     display: inline-block;
     width: 74px; }
@@ -247,6 +247,27 @@ a {
     height: 4px;
     border-radius: 2px;
     background: #fff; }
+
+.languages {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1); }
+  .languages .language {
+    display: inline-block;
+    padding: 2px;
+    z-index: 2; }
+
+.flag {
+  width: 32px;
+  height: 32px;
+  background: url(../../images/flags.png) no-repeat; }
+
+.flag.flag-fr {
+  background-position: -32px 0; }
+
+.flag.flag-us {
+  background-position: 0 -32px; }
 
 /**
   States of elements

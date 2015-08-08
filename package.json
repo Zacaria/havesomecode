@@ -1,7 +1,7 @@
 {
-  "name": "smasass",
+  "name": "i18node",
   "version": "1.0.0",
-  "description": "sass architecture with smacss conventions",
+  "description": "i18n try with nodejs",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,14 +12,16 @@
     "url": "Zacaria"
   },
   "keywords": [
-    "sass",
-    "architecture",
-    "smacss"
+    "i18n",
+    "nodejs",
+    "express",
+    "jade"
   ],
   "author": "Zacaria",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.1"
+    "express": "^4.13.1",
+    "i18next": "^1.10.4"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
