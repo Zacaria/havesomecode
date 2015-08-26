@@ -8,7 +8,6 @@ var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
 i18n.init({
     saveMissing      : true,
-    debug            : true,
     detectLngFromPath: 0,
     supportedLngs    : ['en', 'fr'],
     fallbackLng      : 'en'

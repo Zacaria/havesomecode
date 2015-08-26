@@ -8,7 +8,7 @@
             "title": "Education",
             "article-1": {
                 "title": "Exia.Cesi, Rouen - France",
-                "description-1": "Now in 4th year of software engineering",
+                "description-1": "Now in 5th year of software engineering",
                 "description-2": "Diploma in preparation : Manager of Information Technologies"
             },
             "article-2": {
@@ -19,20 +19,28 @@
         "section-2": {
             "title": "Professional Experiences",
             "article-1": {
-                "title": "Web Developer, Sokrate - Rouen - France",
-                "description-1": "Realization of BabylonJS' documentation : ",
-                "description-2": "Realization of a mobile application's control panel for the Crédit Agricole Normandie Seine"
+                "title": "Web Developer, Keyveo - Rouen - France",
+                "description-1": "Realization of BabylonJS' documentation version 2: ",
+                "description-2": "Realization of import script from TypeScript definition file, to Markdown and merge of old data",
+                "description-3": "Back-end and Front-end development"
             },
             "article-2": {
+                "title": "Web Developer, Sokrate - Rouen - France",
+                "description-1": "Realization of BabylonJS' documentation version 1: ",
+                "description-2": "Realization of a mobile application's control panel for the Crédit Agricole Normandie Seine"
+            },
+            "article-3": {
                 "title": "Web Developer, IRISE CESI Research center - Rouen - France",
                 "description-1": "CREST project involvement (sustainability, living-lab)",
                 "description-2": "Work on the data visualization interface"
             },
-            "article-3": {
-                "title": "Web Developer, Onouo - Rouen - France",
-                "description": "Realization of two e-commerce websites under Magento : "
-            },
             "article-4": {
+                "title": "Web Developer, Onouo - Rouen - France",
+                "description-1": "LAMP stack (Linux + Apache + MySQL + PHP) initiation",
+                "description-2": "Drupal and WebServices initiation",
+                "description-3": "Realization of two e-commerce websites under Magento : "
+            },
+            "article-5": {
                 "title": "Web Developer, University of Portsmouth - GB",
                 "description-1": "Realization of an educational web application",
                 "description-2": "Quiz system built by professor for students"
@@ -48,5 +56,23 @@
             "description-3": "Driving licence, with vehicle",
             "description-4": "Karate : brown belt, Theater : 5 years"
         }
+    },
+    "keywords": {
+        "security": "Security",
+        "automation": "House Automation"
+    },
+    "month": {
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
     }
 }

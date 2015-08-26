@@ -346,7 +346,8 @@ a {
   .keySkills {
     -moz-column-count: 1;
     -webkit-column-count: 1;
-    column-count: 1; }
+    column-count: 1;
+    padding: 5px 15px; }
     .keySkills .skill-fw {
       padding-bottom: 5px; }
 
