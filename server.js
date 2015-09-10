@@ -1,4 +1,5 @@
 'use strict';
+var fs = require('fs');
 var path = require('path');
 var express = require('express');
 var app = express();
@@ -26,10 +27,18 @@ i18n.registerAppHelper(app);
  * Routes
  */
 
+app.get('/pdf', function (req, res) {
+    res.sendFile('./files/CV_Zacaria_CHTATAR_v4.pdf',
+        {
+            root: __dirname + '/public/'
+        }
+    );
+});
+
 app.get('/:lang?', function (req, res) {
     res.render('index', {root: __dirname + '/public/views'});
-
 });
+
 
 /*
  * Start it up

@@ -83,7 +83,8 @@ p {
   color: #444; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #444; }
 
 @font-face {
   font-family: 'Rokkitt';
@@ -254,8 +255,11 @@ a {
   position: fixed;
   bottom: 0;
   right: 0;
+  padding: 1px 4px;
   background-color: rgba(0, 0, 0, 0.1); }
-  .tools .language {
+  .tools .print {
+    vertical-align: top; }
+  .tools .language, .tools .print {
     display: inline-block;
     padding: 2px;
     z-index: 2; }
