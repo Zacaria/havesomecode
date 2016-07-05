@@ -1,0 +1,26 @@
+$color_theme_blue: rgb(0, 174, 239);
+.theme-blue {
+  .mainDetails {
+    border-bottom: 2px solid $color_theme_blue;
+  }
+
+  .sectionTitle h1 {
+    color: $color_theme_blue;
+  }
+
+  #contactDetails ul li a:hover {
+    color: $color_theme_blue;
+  }
+
+  .tag {
+    background-color: $color_theme_blue;
+  }
+
+  .tag:before{
+    border-color:transparent $color_theme_blue transparent transparent;
+  }
+
+  .link{
+    color: $color_theme_blue;
+  }
+}

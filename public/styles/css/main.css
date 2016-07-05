@@ -91,11 +91,13 @@ a {
   src: url("../fonts/rokkitt/Rokkitt.otf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'Lato';
   src: url("../fonts/lato/Lato-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
 /**
   Layouts are major sections of the page (header, footer, sidebar)
   Id's use is tolerable here
@@ -295,45 +297,41 @@ a {
   #cv {
     margin: 0;
     width: 100%; }
-
   #headshot {
     display: none; }
-
   .mainArea {
     padding: 0 10px; } }
+
 @media all and (max-width: 662px) {
   #cv {
     margin: 0;
     width: 100%; }
-
   .name .name-title {
     width: 100%;
     margin-bottom: 15px; }
-
   .section {
     display: flex;
     flex-flow: column wrap; }
     .section .sectionContent {
       width: 100%; }
-
   .mainArea {
     padding: 0 10px; } }
+
 @media all and (min-width: 311px) and (max-width: 662px) {
   .sectionTitle, .sectionContent {
     float: none;
     width: 100%; }
-
   .sectionTitle {
     margin-left: -2px;
     font-size: 1.25em;
     padding-bottom: 5px; }
-
   .keySkills {
     -moz-column-count: 2;
     -webkit-column-count: 2;
     column-count: 2; }
     .keySkills .skill-fw {
       padding-bottom: 5px; } }
+
 @media all and (max-width: 595px) {
   .mainDetails {
     display: flex;
@@ -344,6 +342,7 @@ a {
     .mainDetails #contactDetails {
       width: 100%;
       text-align: center; } }
+
 @media all and (max-width: 320px) {
   .keySkills {
     -moz-column-count: 1;
@@ -352,29 +351,54 @@ a {
     padding: 5px 15px; }
     .keySkills .skill-fw {
       padding-bottom: 5px; }
-
   #name h1 {
     line-height: .8em;
     margin-bottom: 4px; } }
+
 .theme-yellow .mainDetails {
   border-bottom: 1px solid #cf8a05; }
+
 .theme-yellow .sectionTitle h1 {
   color: #cf8a05; }
+
 .theme-yellow #contactDetails ul li a:hover {
   color: #cf8a05; }
 
 .theme-orange .mainDetails {
   border-bottom: 2px solid #d44d14; }
+
 .theme-orange .sectionTitle h1 {
   color: #d44d14; }
+
 .theme-orange #contactDetails ul li a:hover {
   color: #d44d14; }
+
 .theme-orange .tag {
   background-color: #d44d14; }
+
 .theme-orange .tag:before {
   border-color: transparent #d44d14 transparent transparent; }
+
 .theme-orange .link {
   color: #d44d14; }
+
+.theme-blue .mainDetails {
+  border-bottom: 2px solid #00aeef; }
+
+.theme-blue .sectionTitle h1 {
+  color: #00aeef; }
+
+.theme-blue #contactDetails ul li a:hover {
+  color: #00aeef; }
+
+.theme-blue .tag {
+  background-color: #00aeef; }
+
+.theme-blue .tag:before {
+  border-color: transparent #00aeef transparent transparent; }
+
+.theme-blue .link {
+  color: #00aeef; }
 
 /**
   Hot and shamefull fixes added at the end of the full css file
@@ -386,5 +410,3 @@ a {
 
   Needs to be cleaned regularly
 */
-
-/*# sourceMappingURL=main.css.map */
