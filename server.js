@@ -7,8 +7,6 @@ var i18n = require('i18next');
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
-var wkhtmltopdf = require('wkhtmltopdf');
-
 i18n.init({
     saveMissing: true,
     detectLngFromPath: 0,
