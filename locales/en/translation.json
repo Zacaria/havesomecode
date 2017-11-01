@@ -1,22 +1,20 @@
 {
+    "global": {
+        "since": "since"
+    },
     "main-details": {
         "name-title": "Developer",
-        "name-detail": " Zacaria Chtatar, 22"
+        "name-detail": " Zacaria Chtatar, 23"
     },
     "sections": {
-        "section-1": {
+        "section-formation": {
             "title": "Education",
-            "article-1": {
-                "title": "Exia.Cesi, Rouen - France",
-                "description-1": "Now in 5th year of software engineering",
-                "description-2": "Diploma in preparation : Manager of Information Technologies"
-            },
-            "article-2": {
-                "title": "High school diploma in sciences",
-                "description": "Lycée André Malraux, Gaillon - France"
-            }
+            "item-1": "Exia.Cesi - France IT Manager (Bachelor +5)",
+            "item-2": "Oracle Certified Programer Java 8 2016",
+            "item-3": "Oracle Certified Associate Java 8 2016",
+            "item-4": "Certified Entry Networking Technician 2013."
         },
-        "section-2": {
+        "section-xp": {
             "title": "Professional Experiences",
             "article-1": {
                 "title": "Web Developer, Keyveo - Rouen - France",
@@ -41,17 +39,26 @@
                 "description-3": "Realization of two e-commerce websites under Magento : "
             },
             "article-5": {
-                "title": "Web Developer, University of Portsmouth - GB",
-                "description-1": "Realization of an educational web application",
-                "description-2": "Quiz system built by professor for students"
+                "title": "Formation Consultant, Excilys - Cachan.",
+                "description-1": "Java/JEE ecosystem formation (6 weeks).",
+                "description-2": "Coding challenge (won) : set up USB dart launcher system.",
+                "description-3": "Improvement of a web dashboard for IoT",
+                "description-4": "Creation of a React-native application for IoT."
+            },
+            "article-6": {
+                "title": "Consultant React, Excilys - Paris VIII.",
+                "description-1": "Set up of React Redux best practices on marketplace projects.",
+                "description-2": "Maintain and update a React components library.",
+                "description-3": "Java developers formation for React transition.",
+                "description-4": "Scrum Master for a team of 6."
             }
         },
-        "section-3": {
+        "section-skills": {
             "title": "Key Skills"
         },
-        "section-4": {
+        "section-infos": {
             "title": "Additional Informations",
-            "description-1": "Cisco CCENT certified 2013",
+            "description-1": "Interests: Functional programing, Sciences, IA",
             "description-2": "Fluent english : TOEIC 955",
             "description-3": "Driving licence, with vehicle",
             "description-4": "Karate : brown belt, Theater : 5 years"

@@ -355,6 +355,13 @@ a {
     line-height: .8em;
     margin-bottom: 4px; } }
 
+@media print {
+  @page {
+    size: auto;
+    margin: 0mm; }
+  .tools {
+    display: none; } }
+
 .theme-yellow .mainDetails {
   border-bottom: 1px solid #cf8a05; }
 
