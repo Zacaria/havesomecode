@@ -16,25 +16,37 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('nodemon', function(cb) {
-    var called = false;
-    return nodemon({
-        script: 'server.js'
-    }).once('start', function() {
-        if (!called) {
-            cb();
-            called = true;
-        }
-    });
+gulp.task('nodemon', function () {
+  var called = false;
+  return nodemon({
+    script: 'server.js',
+    ext: 'jade js json',
+    ignore: [
+      'gulpfile.js',
+      'node_modules/'
+    ]
+  })
+    .on('restart', function () {
+      console.log('pouet');
+      return browserSync.reload()
+    })
+    // .once('start', function () {
+    //   if (!called) {
+    //     called = true;
+    //     cb();
+    //   }
+    // });
 });
 
-gulp.task('browser-sync', ['nodemon'], function() {
-    browserSync.init({
-        proxy: "http://localhost:8080"
-    });
+gulp.task('browser-sync', ['nodemon'], function () {
+  browserSync.init(null, {
+    proxy: "http://localhost:8080",
+    notify: true
+  });
 });
 
-gulp.task('default', ['sass', 'browser-sync'], function() {
-    gulp.watch('public/styles/scss/**/*.scss', ['sass']);
-    gulp.watch(filesToWatch, [browserSync.reload]);
+gulp.task('default', ['sass', 'browser-sync'], function () {
+  gulp.watch('public/styles/scss/**/*.scss', ['sass']);
+  browserSync.reload({stream: false});
+  // gulp.watch(filesToWatch, [browserSync.reload]);
 });
