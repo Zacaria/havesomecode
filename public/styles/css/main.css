@@ -73,7 +73,8 @@ html, body {
   font-size: 16px;
   color: #222; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
   display: block; }
 
 p {
@@ -300,7 +301,7 @@ a {
   #headshot {
     display: none; }
   .mainArea {
-    padding: 0 10px; } }
+    padding: 0 40px; } }
 
 @media all and (max-width: 662px) {
   #cv {
@@ -315,7 +316,7 @@ a {
     .section .sectionContent {
       width: 100%; }
   .mainArea {
-    padding: 0 10px; } }
+    padding: 0 40px; } }
 
 @media all and (min-width: 311px) and (max-width: 662px) {
   .sectionTitle, .sectionContent {
@@ -333,15 +334,8 @@ a {
       padding-bottom: 5px; } }
 
 @media all and (max-width: 595px) {
-  .mainDetails {
-    display: flex;
-    flex-flow: column wrap; }
-    .mainDetails .name .name-title {
-      text-align: center;
-      width: 100%; }
-    .mainDetails #contactDetails {
-      width: 100%;
-      text-align: center; } }
+  .mainDetails #contactDetails {
+    float: right; } }
 
 @media all and (max-width: 320px) {
   .keySkills {

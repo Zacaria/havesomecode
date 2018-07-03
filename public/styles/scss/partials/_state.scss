@@ -38,7 +38,7 @@
   }
 
   .mainArea{
-    padding: 0 10px;
+    padding: 0 40px;
   }
 
   //.keySkills {
@@ -70,7 +70,7 @@
   }
 
   .mainArea{
-    padding: 0 10px;
+    padding: 0 40px;
   }
 }
 
@@ -105,16 +105,19 @@
   //}
 
   .mainDetails{
-    display: flex;
-    flex-flow: column wrap;
-    .name .name-title{
-      text-align: center;
-      width: 100%;
+    //display: flex;
+    //flex-flow: row wrap;
+    .name {
+      //text-align: center;
+      //width: 100%;
+      //flex: 3;
     }
 
     #contactDetails {
-      width: 100%;
-      text-align: center;
+      //width: 100%;
+      //text-align: right;
+      //flex: 1;
+      float: right;
     }
   }
 }
