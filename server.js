@@ -18,7 +18,7 @@ i18n.registerAppHelper(app);
 
 //it is important to put this line before the "view engine" middleware
 app.use(i18n.handle);
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 app.set('view cache', false);
 app.set('views', __dirname + '/public/views');
 app.use(express.static(path.join(__dirname, 'public')));
