@@ -4,7 +4,7 @@
   },
   "main-details": {
     "name-title": "Développeur",
-    "name-detail": " Zacaria Chtatar, 23 ans"
+    "name-detail": " Zacaria Chtatar, 24 ans"
   },
   "sections": {
     "section-formation": {
@@ -39,18 +39,32 @@
         "description-3": "Réalisation de deux sites e-commerce sous Magento : "
       },
       "article-5": {
-        "title": "Formation Consultant, Excilys - Cachan.",
+        "title": "Consultant Java/JS, Excilys - Cachan.",
         "description-1": "Formation aux technologies Java/JEE (6 semaines).",
         "description-2": "Coding challenge (remporté) : mise en place d'un système de lance flechettes USB.",
         "description-3": "Amélioration d'un dashboard web pour l'IoT.",
         "description-4": "Création d'une application React-native pour l'IoT."
       },
       "article-6": {
-        "title": "Consultant React, Excilys - Paris VIII.",
+        "title": "Consultant React, Excilys - Mirakl - Paris VIII.",
         "description-1": "Définition et mise en place de bonnes pratiques sur des projets marketplace React Redux.",
         "description-2": "Enrichissement et maintien d'une librairie de composants React.",
         "description-3": "Accompagnement de développeurs Java pour travailler en React.",
         "description-4": "Scrum Master d'une équipe de 6."
+      },
+      "article-7": {
+        "title": "Consultant React, Excilys - OneWealthPlace - Paris I.",
+        "description-1": "Intégration d'une expérience utilisateur sur un projet destiné aux banques privées.",
+        "description-2": "Développement de composants React branchés à une API GraphQL.",
+        "description-3": "Travail sur les performances de React Apollo côté client.",
+        "description-4": "Mise en place de Scrum et Scrum Master d'une équipe de 9."
+      },
+      "article-8": {
+        "title": "Lead Developer Front, DirectSkills - Paris IX.",
+        "description-1": "Intégration d'une interface utilisateur dans le contexte de gestion de ressources humaines via l'intérim.",
+        "description-2": "Modernisation des pratiques et des outils de développement front.",
+        "description-3": "Formation de collègues dans l'écosystème React.",
+        "description-4": ""
       }
     },
     "section-skills": {

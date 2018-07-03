@@ -4,7 +4,7 @@
     },
     "main-details": {
         "name-title": "Developer",
-        "name-detail": " Zacaria Chtatar, 23"
+        "name-detail": " Zacaria Chtatar, 24"
     },
     "sections": {
         "section-formation": {
@@ -51,6 +51,20 @@
                 "description-2": "Maintain and update a React components library.",
                 "description-3": "Java developers formation for React transition.",
                 "description-4": "Scrum Master for a team of 6."
+            },
+            "article-7": {
+                "title": "sections.section-xp.article-7.title",
+                "description-1": "sections.section-xp.article-7.description-1",
+                "description-2": "sections.section-xp.article-7.description-2",
+                "description-3": "sections.section-xp.article-7.description-3",
+                "description-4": "sections.section-xp.article-7.description-4"
+            },
+            "article-8": {
+                "title": "sections.section-xp.article-8.title",
+                "description-1": "sections.section-xp.article-8.description-1",
+                "description-2": "sections.section-xp.article-8.description-2",
+                "description-3": "sections.section-xp.article-8.description-3",
+                "description-4": "sections.section-xp.article-8.description-4"
             }
         },
         "section-skills": {
