@@ -34,7 +34,7 @@ app.get('/pdf', function(req, res) {
 });
 
 app.get('/:lang?', function(req, res) {
-    res.render('index', {
+    res.render('page', {
         root: __dirname + '/public/views'
     });
 });

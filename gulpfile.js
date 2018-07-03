@@ -27,7 +27,6 @@ gulp.task('nodemon', function () {
     ]
   })
     .on('restart', function () {
-      console.log('pouet');
       return browserSync.reload()
     })
     // .once('start', function () {
@@ -48,5 +47,4 @@ gulp.task('browser-sync', ['nodemon'], function () {
 gulp.task('default', ['sass', 'browser-sync'], function () {
   gulp.watch('public/styles/scss/**/*.scss', ['sass']);
   browserSync.reload({stream: false});
-  // gulp.watch(filesToWatch, [browserSync.reload]);
 });
