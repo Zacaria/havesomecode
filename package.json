@@ -8,7 +8,9 @@
     "dev": "gulp",
     "deploy": "npm run clean && cd docs && npm run build && ls && npm run copyAssets && npm run surge",
     "surge": "surge -d $npm_package_config_deploy_domain -p docs/_static",
-    "clean": "rimraf docs/_static"
+    "clean": "rimraf docs/_static",
+    "printpdf": "node printPdf.js",
+    "build": "npm-run-all --parallel start printpdf"
   },
   "repository": {
     "type": "git",
@@ -35,6 +37,7 @@
     "gulp-exec": "^3.0.1",
     "gulp-nodemon": "^2.2.1",
     "gulp-sass": "^4.0.1",
+    "npm-run-all": "^4.1.3",
     "rimraf": "^2.6.2"
   },
   "config": {
