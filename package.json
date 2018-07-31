@@ -8,8 +8,7 @@
     "dev": "gulp",
     "deploy": "npm run clean && cd docs && npm run build && ls && npm run copyAssets && npm run surge",
     "surge": "surge -d $npm_package_config_deploy_domain -p docs/_static",
-    "clean": "rimraf docs/_static",
-    "build": "pug -P -o build  ./public/views/page.pug"
+    "clean": "rimraf docs/_static"
   },
   "repository": {
     "type": "git",
@@ -27,7 +26,8 @@
     "express": "^4.16.3",
     "i18next": "^1.10.4",
     "jade": "^1.11.0",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "puppeteer": "^1.6.1"
   },
   "devDependencies": {
     "browser-sync": "^2.13.0",
@@ -35,7 +35,6 @@
     "gulp-exec": "^3.0.1",
     "gulp-nodemon": "^2.2.1",
     "gulp-sass": "^4.0.1",
-    "pug-cli": "^1.0.0-alpha6",
     "rimraf": "^2.6.2"
   },
   "config": {
