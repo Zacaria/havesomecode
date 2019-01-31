@@ -65,6 +65,13 @@
                 "description-2": "Modernization of front-end development practices and tools.",
                 "description-3": "Traning of teammates on the React ecosystem.",
                 "description-4": ""
+            },
+            "article-9": {
+              "title": "Freelance Developer JS. Figaro Classifieds - Paris IX.",
+              "description-1": "Update of React project dependencies. Webpack 2 to 4 migration.",
+              "description-2": "Backbone/JSP to VueJS migration. ",
+              "description-3": "Server-side rendering setup. High SEO and UX focus. ",
+              "description-4": "Nodejs application dockerisation. REST API development with Golang."
             }
         },
         "section-skills": {
