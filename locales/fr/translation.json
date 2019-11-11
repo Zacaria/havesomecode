@@ -4,14 +4,14 @@
   },
   "main-details": {
     "name-title": "Développeur",
-    "name-detail": " Zacaria Chtatar, 24 ans"
+    "name-detail": " Zacaria Chtatar, 25 ans"
   },
   "sections": {
     "section-formation": {
       "title": "Formation et Diplômes.",
-      "item-1": "Exia.Cesi Manager des Systèmes d'Information, Bac +5, 2016.",
-      "item-2": "Oracle Certified Programer Java 8 2016.",
-      "item-3": "Oracle Certified Associate Java 8 2016.",
+      "item-1": "AWS Certified Cloud Practitioner 2019.",
+      "item-2": "Exia.Cesi Manager des Systèmes d'Information, Bac +5, 2016.",
+      "item-3": "Oracle Certified Programer Java 8 2016.",
       "item-4": "Cisco Certified Entry Networking Technician 2013."
     },
     "section-xp": {

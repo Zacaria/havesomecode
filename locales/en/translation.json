@@ -4,14 +4,14 @@
     },
     "main-details": {
         "name-title": "Developer",
-        "name-detail": " Zacaria Chtatar, 24"
+        "name-detail": " Zacaria Chtatar, 25"
     },
     "sections": {
         "section-formation": {
             "title": "Education",
-            "item-1": "Exia.Cesi - France IT Manager, Bachelor +5, 2016.",
-            "item-2": "Oracle Certified Programer Java 8 2016",
-            "item-3": "Oracle Certified Associate Java 8 2016",
+            "item-1": "AWS Certified Cloud Practitioner 2019.",
+            "item-2": "Exia.Cesi - France IT Manager, Bachelor +5, 2016.",
+            "item-3": "Oracle Certified Programer Java 8 2016.",
             "item-4": "Cisco Certified Entry Networking Technician 2013."
         },
         "section-xp": {
