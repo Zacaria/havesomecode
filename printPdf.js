@@ -27,7 +27,11 @@ async function goAndPrint(page, lang) {
 
 	await page.goto(url, { waitUntil: 'networkidle2', preferCSSPageSize: true });
 
-	await page.pdf({ path: joinFilePath(lang), format: 'A4' });
+	await page.pdf({
+		path: joinFilePath(lang),
+		format: 'A4',
+		printBackground: true
+	});
 }
 
 function joinFilePath(lang) {
