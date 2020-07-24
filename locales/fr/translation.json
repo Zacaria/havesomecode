@@ -4,7 +4,7 @@
   },
   "main-details": {
     "name-title": "Développeur",
-    "name-detail": " Zacaria Chtatar, 25 ans"
+    "name-detail": " Zacaria Chtatar, 26) ans"
   },
   "sections": {
     "section-formation": {
@@ -20,7 +20,9 @@
         "title": "Développeur Web, Keyveo - Rouen.",
         "description-1": "Réalisation de la documentation BabylonJS version 2 : ",
         "description-2": "Réalisation de script d'importation depuis un fichier de définition TypeScript, vers du Markdown et migration de données des versions précédentes.",
-        "description-3": "Développement back-end et front-end."
+        "description-3": "Développement d'un scipt NodeJs prenant un fichier de types Typescript en entrée",
+        "description-5": "pour générer une documentation en markdown en sortie.",
+        "description-6": "Utilisation de patterns async et Strategie"
       },
       "article-2": {
         "title": "Développeur Web, Sokrate - Rouen.",
@@ -42,8 +44,9 @@
         "title": "Consultant Java/JS, Excilys - Cachan.",
         "description-1": "Formation aux technologies Java/JEE (6 semaines).",
         "description-2": "Coding challenge (remporté) : mise en place d'un système de lance flechettes USB.",
-        "description-3": "Amélioration d'un dashboard web pour l'IoT.",
-        "description-4": "Création d'une application React-native pour l'IoT."
+        "description-3": "Développement d'un driver usb en NodeJs pour le lance flechettes",
+        "description-4": "Amélioration d'un dashboard web pour l'IoT.",
+        "description-5": "Création d'une application React-native pour l'IoT."
       },
       "article-6": {
         "title": "Consultant React, Excilys - Mirakl - Paris VIII.",
@@ -67,11 +70,13 @@
         "description-4": ""
       },
       "article-9": {
-        "title": "Freelance Developer JS. Figaro Classifieds - Paris IX.",
+        "title": "Developpeur Référent NodeJs. Figaro Classifieds - Paris IX.",
         "description-1": "Mise à jour des dépendances d'un projet React. Migration Webpack 2 vers 4.",
         "description-2": "Refonte d'une application Backbone/JSP vers VueJS. ",
         "description-3": "Mise en place de Server-side rendering. Fortes problématiques SEO et UX. ",
-        "description-4": "Dockerisation d'application Nodejs. Développement d'API REST en Go."
+        "description-4": "Dockerisation d'application Nodejs. Développement d'API REST en Go.",
+        "description-5": "Refacto d'un micro-service go en archi hexagonale",
+        "description-6": "Mise en place d'un CDN sur gcp avec Terraform"
       }
     },
     "section-skills": {

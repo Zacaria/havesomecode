@@ -4,7 +4,7 @@
     },
     "main-details": {
         "name-title": "Developer",
-        "name-detail": " Zacaria Chtatar, 25"
+        "name-detail": " Zacaria Chtatar, 26"
     },
     "sections": {
         "section-formation": {
@@ -20,7 +20,10 @@
                 "title": "Web Developer, Keyveo - Rouen - France",
                 "description-1": "Realization of BabylonJS' documentation version 2: ",
                 "description-2": "Realization of import script from TypeScript definition file, to Markdown and merge of old data",
-                "description-3": "Back-end and Front-end development"
+                "description-3": "Development of a NodeJs script taking a Typescript types definition file as input,",
+                "description-5": "to output markdown documentation files.",
+                "description-6": "Use of async and Strategy patterns.",
+                "description-4": "sections.section-xp.article-1.description-4"
             },
             "article-2": {
                 "title": "Web Developer, Sokrate - Rouen - France",
@@ -42,8 +45,9 @@
                 "title": "Formation Consultant, Excilys - Cachan.",
                 "description-1": "Java/JEE ecosystem formation (6 weeks).",
                 "description-2": "Coding challenge (won) : set up USB dart launcher system.",
-                "description-3": "Improvement of a web dashboard for IoT",
-                "description-4": "Creation of a React-native application for IoT."
+                "description-3": "Creation of USB driver in NodeJs for the USB dart launcher",
+                "description-4": "Improvement of a web dashboard for IoT",
+                "description-5": "Creation of a React-native application for IoT."
             },
             "article-6": {
                 "title": "Consultant React, Excilys - Paris VIII.",
@@ -67,11 +71,13 @@
                 "description-4": ""
             },
             "article-9": {
-              "title": "Freelance Developer JS. Figaro Classifieds - Paris IX.",
-              "description-1": "Update of React project dependencies. Webpack 2 to 4 migration.",
-              "description-2": "Backbone/JSP to VueJS migration. ",
-              "description-3": "Server-side rendering setup. High SEO and UX focus. ",
-              "description-4": "Nodejs application dockerisation. REST API development with Golang."
+                "title": "NodeJs stack leader. Figaro Classifieds - Paris IX.",
+                "description-1": "Update of React project dependencies. Webpack 2 to 4 migration.",
+                "description-2": "Backbone/JSP to VueJS migration. ",
+                "description-3": "Server-side rendering setup. High SEO and UX focus. ",
+                "description-4": "Nodejs application dockerisation. REST API development with Golang.",
+                "description-5": "Go micro-service rewrite using hexagonal architecture pattern",
+                "description-6": "CDN setup on gcp using Terraform"
             }
         },
         "section-skills": {
