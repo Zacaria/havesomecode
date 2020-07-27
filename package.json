@@ -20,21 +20,19 @@
     "i18n",
     "nodejs",
     "express",
-    "jade"
+    "pug"
   ],
   "author": "Zacaria",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
     "i18next": "^1.10.4",
-    "jade": "^1.11.0",
     "pug": "^2.0.3",
     "puppeteer": "^1.6.1"
   },
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
-    "gulp-exec": "^3.0.1",
     "gulp-nodemon": "^2.2.1",
     "gulp-sass": "^4.0.1",
     "npm-run-all": "^4.1.3",

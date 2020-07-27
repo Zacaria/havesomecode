@@ -1,12 +1,7 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
-var exec = require('gulp-exec');
 var nodemon = require('gulp-nodemon');
-
-var filesToWatch = ['public/views/*.jade', 'gulpfile.js',
-    'package.json'
-];
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
@@ -17,10 +12,9 @@ gulp.task('sass', function() {
 });
 
 gulp.task('nodemon', function () {
-  var called = false;
   return nodemon({
     script: 'server.js',
-    ext: 'jade js json',
+    ext: 'pug js json',
     ignore: [
       'gulpfile.js',
       'node_modules/'
@@ -29,12 +23,6 @@ gulp.task('nodemon', function () {
     .on('restart', function () {
       return browserSync.reload()
     })
-    // .once('start', function () {
-    //   if (!called) {
-    //     called = true;
-    //     cb();
-    //   }
-    // });
 });
 
 gulp.task('browser-sync', ['nodemon'], function () {
