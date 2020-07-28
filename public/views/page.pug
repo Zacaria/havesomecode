@@ -8,7 +8,7 @@ html.theme-blue
         meta(content="text/html; charset=UTF-8")
         link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
         link(type="text/css", rel="stylesheet", href="styles/css/main.css")
-        script(src="js/scripts.js")
+        //- script(src="js/scripts.js")
     body
         #cv
             .mainDetails
@@ -155,9 +155,6 @@ html.theme-blue
                                     =t('sections.section-xp.article-5.description-4')
                                     br
                                     =t('sections.section-xp.article-5.description-5')
-                            br
-                            br
-                            br
                             article
                                 h2=t('sections.section-xp.article-1.title')
                                 div
@@ -335,14 +332,14 @@ html.theme-blue
                             =t('sections.section-infos.description-4')
                     .clear
         .tools
-            .print
+            .print(onclick='window.print()')
                 a(href='#')
                     i.fa.fa-2x.fa-print
             .language
-                a(href='/fr')
+                a(href='/fr.html')
                     img.flag.flag-fr(src='images/FR.png')
             .language
-                a(href='/en')
+                a(href='/en.html')
                     img.flag.flag-gb(src='images/GB.png')
 
     footer

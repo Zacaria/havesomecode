@@ -6,12 +6,12 @@
   "scripts": {
     "start": "node server.js",
     "dev": "gulp",
-    "deploy": "npm run clean && cd docs && npm run build && npm run surge",
+    "deploy": "npm run clean && npm run build && npm run surge",
     "surge": "surge -d $npm_package_config_deploy_domain -p build",
     "clean": "rimraf build",
     "printPdf": "mkdir -p build && node printPdf.js",
     "buildPdf": "npm-run-all --parallel --race start printPdf",
-    "build": "npm run clean && node build.js && cp -r public/. build && npm run buildPdf"
+    "build": "node build.js && cp -r public/. build && npm run buildPdf"
   },
   "repository": {
     "type": "git",
