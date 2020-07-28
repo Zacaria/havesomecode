@@ -6,11 +6,12 @@
   "scripts": {
     "start": "node server.js",
     "dev": "gulp",
-    "deploy": "npm run clean && cd docs && npm run build && ls && npm run copyAssets && npm run surge",
-    "surge": "surge -d $npm_package_config_deploy_domain -p docs/_static",
+    "deploy": "npm run clean && cd docs && npm run build && npm run surge",
+    "surge": "surge -d $npm_package_config_deploy_domain -p build",
     "clean": "rimraf build",
-    "printpdf": "mkdir -p build && node printPdf.js",
-    "build": "npm-run-all --parallel --race start printpdf"
+    "printPdf": "mkdir -p build && node printPdf.js",
+    "buildPdf": "npm-run-all --parallel --race start printPdf",
+    "build": "npm run clean && node build.js && cp -r public/. build && npm run buildPdf"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,9 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
-    "i18next": "^1.10.4",
+    "i18next": "19.6.3",
+    "i18next-fs-backend": "^1.0.7",
+    "i18next-http-middleware": "^3.0.2",
     "pug": "^2.0.3",
     "puppeteer": "^1.6.1"
   },

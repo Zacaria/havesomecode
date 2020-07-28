@@ -1,5 +1,6 @@
 const path = require('path');
 const puppeteer = require('puppeteer');
+const fs = require('fs');
 
 const PAGE = 'http://localhost:8080/';
 const FILE_BASE = 'CV_ZACARIA_CHTATAR';
@@ -27,6 +28,8 @@ async function goAndPrint(page, lang) {
 
 	await page.goto(url, { waitUntil: 'networkidle2', preferCSSPageSize: true });
 
+	await fs.mkdirSync('build/cv', {recursive: true});
+
 	await page.pdf({
 		path: joinFilePath(lang),
 		format: 'A4',
@@ -35,5 +38,5 @@ async function goAndPrint(page, lang) {
 }
 
 function joinFilePath(lang) {
-	return path.join('build/',`${FILE_BASE}_${lang}.pdf`);
+	return path.join('build/cv/',`${FILE_BASE}_${lang}.pdf`);
 }
