@@ -1,7 +1,7 @@
 {
-  "name": "i18node",
+  "name": "havesomecode",
   "version": "1.0.0",
-  "description": "i18n try with nodejs",
+  "description": "havesomecode website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -28,9 +28,9 @@
   "dependencies": {
     "express": "^4.16.3",
     "i18next": "19.6.3",
-    "i18next-fs-backend": "^1.0.7",
-    "i18next-http-middleware": "^3.0.2",
-    "pug": "^2.0.3",
+    "i18next-fs-backend": "1.0.7",
+    "i18next-http-middleware": "3.0.2",
+    "pug": "3.0.0",
     "puppeteer": "^1.6.1"
   },
   "devDependencies": {
