@@ -1,7 +1,7 @@
 {
-  "name": "havesomecode",
+  "name": "my-resume",
   "version": "1.0.0",
-  "description": "havesomecode website",
+  "description": "my-resume website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
