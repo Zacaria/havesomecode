@@ -7,7 +7,7 @@
     "start": "node server.js",
     "dev": "gulp",
     "deploy": "npm run clean && npm run build && npm run surge",
-    "surge": "surge -d $npm_package_config_deploy_domain -p build",
+    "surge": "surge -d $npm_package_config_deploy_domain1 -p build && surge -d $npm_package_config_deploy_domain2 -p build",
     "clean": "rimraf build",
     "printPdf": "mkdir -p build && node printPdf.js",
     "buildPdf": "npm-run-all --parallel --race start printPdf",
@@ -42,6 +42,7 @@
     "rimraf": "^2.6.2"
   },
   "config": {
-    "deploy_domain": "havesome-resume.surge.sh"
+    "deploy_domain1": "cv.havesomecode.io",
+    "deploy_domain2": "havesome-resume.surge.sh"
   }
 }
