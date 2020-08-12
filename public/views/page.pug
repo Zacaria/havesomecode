@@ -8,7 +8,7 @@ html.theme-blue
         meta(content="text/html; charset=UTF-8")
         link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
         link(type="text/css", rel="stylesheet", href="styles/css/main.css")
-        //- script(src="js/scripts.js")
+        script(src="js/script.js", defer)
     body
         #cv
             .mainDetails
@@ -22,14 +22,8 @@ html.theme-blue
                         li
                             i.fa.fa-user.fa-fw
                             =t('main-details.name-detail')
-                        li
-                            a(href="mailto:havesomecode@gmail.com", target="_blank")
-                                i.fa.fa-envelope-o.fa-fw
-                                | &nbsp;havesomecode@gmail.com
-                        li
-                            a(href="tel:0617077165", target="_blank")
-                                i.fa.fa-phone.fa-fw
-                                | &nbsp;06.17.07.71.65
+                        li.email
+                        li.phone
                         li
                             a(href="https://github.com/Zacaria")
                                 i.fa.fa-github.fa-fw
@@ -55,6 +49,7 @@ html.theme-blue
                                         li.tag NodeJs
                                         li.tag React
                                         li.tag VueJs
+                                        li.tag ElasticSearch
                                         li.tag Golang
                                         li.tag Docker
                                         li.tag Terraform

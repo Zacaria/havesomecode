@@ -17,7 +17,7 @@
     "section-xp": {
       "title": "Expérience Professionnelle.",
       "article-1": {
-        "title": "Développeur Web, Keyveo - Rouen.",
+        "title": "Développeur NodeJs, Keyveo (ex Sokrate) - Rouen.",
         "description-1": "Réalisation de la documentation BabylonJS version 2 : ",
         "description-2": "Réalisation de script d'importation depuis un fichier de définition TypeScript, vers du Markdown et migration de données des versions précédentes.",
         "description-3": "Développement d'un scipt NodeJs prenant un fichier de types Typescript en entrée",
@@ -41,7 +41,7 @@
         "description-3": "Réalisation de deux sites e-commerce sous Magento : "
       },
       "article-5": {
-        "title": "Consultant Java/JS, Excilys - Cachan.",
+        "title": "Développeur JS/Java, Excilys - Cachan.",
         "description-1": "Formation aux technologies Java/JEE (6 semaines).",
         "description-2": "Coding challenge (remporté) : mise en place d'un système de lance flechettes USB.",
         "description-3": "Développement d'un driver usb en NodeJs pour le lance flechettes",
@@ -71,7 +71,7 @@
       },
       "article-9": {
         "title": "Developpeur Référent NodeJs. Figaro Classifieds - Paris IX.",
-        "description-1": "Mise à jour des dépendances d'un projet React. Migration Webpack 2 vers 4.",
+        "description-1": "Réhabilitation d'un projet React. Migration Webpack 2 vers 4.",
         "description-2": "Refonte d'une application Backbone/JSP vers VueJS. ",
         "description-3": "Mise en place de Server-side rendering. Fortes problématiques SEO et UX. ",
         "description-4": "Dockerisation d'application Nodejs. Développement d'API REST en Go.",
