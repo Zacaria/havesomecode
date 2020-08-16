@@ -21,9 +21,8 @@
                 "description-1": "Realization of BabylonJS' documentation version 2: ",
                 "description-2": "Realization of import script from TypeScript definition file, to Markdown and merge of old data",
                 "description-3": "Development of a NodeJs script taking a Typescript types definition file as input,",
-                "description-5": "to output markdown documentation files.",
-                "description-6": "Use of async and Strategy patterns.",
-                "description-4": "sections.section-xp.article-1.description-4"
+                "description-4": "to output markdown documentation files.",
+                "description-5": "Use of async and Strategy patterns."
             },
             "article-2": {
                 "title": "Web Developer, Sokrate - Rouen - France",
