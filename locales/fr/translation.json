@@ -20,9 +20,8 @@
         "title": "Développeur NodeJs, Keyveo (ex Sokrate) - Rouen.",
         "description-1": "Réalisation de la documentation BabylonJS version 2 : ",
         "description-2": "Réalisation de script d'importation depuis un fichier de définition TypeScript, vers du Markdown et migration de données des versions précédentes.",
-        "description-3": "Développement d'un scipt NodeJs prenant un fichier de types Typescript en entrée",
-        "description-4": "pour générer une documentation en markdown en sortie.",
-        "description-5": "Utilisation de patterns async et Strategie"
+        "description-3": "Développement d'un scipt NodeJs prenant un fichier de types Typescript en entrée, pour générer une documentation en markdown en sortie.",
+        "description-4": "Utilisation de patterns async et Strategie"
       },
       "article-2": {
         "title": "Développeur Web, Sokrate - Rouen.",
