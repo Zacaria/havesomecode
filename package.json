@@ -30,7 +30,7 @@
     "i18next": "19.6.3",
     "i18next-fs-backend": "1.0.7",
     "i18next-http-middleware": "3.0.2",
-    "pug": "3.0.0",
+    "pug": "3.0.1",
     "puppeteer": "^1.6.1"
   },
   "devDependencies": {
